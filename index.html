@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+     <!-- cabeçalho do catalogo -->
+<header>
+    <nav id="navbar">
+        <i class="fa-solid fa-burger" id="nav-logo"> food </i>
+
+        <ul id="nav-list">
+           <li class="nav-item active">
+            <a href="#home">Inicio</a>
+           </li>
+
+           <li class="nav-item">
+            <a href="#menu">Cardápio</a>
+           </li>
+
+           <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+           </li>
+           
+        </ul>
+
+<button class="btn-default">
+    Peça aqui
+</button>
+     
+<!-- menu mobile abaixo -->
+
+<button id="mobile-btn">
+<i class="fa-solid fa-bars"></i>
+</button>
+    </nav>
+
+    <div id="mobile-menu">
+        <ul id="mobile-nav-list">
+            <li class="nav-item">
+             <a href="#home">Inicio</a>
+            </li>
+ 
+            <li class="nav-item">
+             <a href="#menu">Cardápio</a>
+            </li>
+ 
+            <li class="nav-item">
+             <a href="#testimonials">Avaliações</a>
+            </li>
+            
+         </ul>
+
+         <button class="btn-default">
+            Peça aqui
+        </button>
+
+    </div>
+
+</header>
+       <!-- fim do cabeçalho -->
+
+       <script src="javascript/script.js"></script>
+
+       <!-- começo do conteudo, abaixo -->
+
+       <main id="content">
+          <section id="home">
+            <div class="shape">
+
+            </div>
+             <div id="cta">
+               <h1 class="title">
+                O sabor que vai até <span>você</span>
+               </h1>
+
+               <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Facere eum aperiam modi corporis placeat, dolorem, amet quasi quaerat
+                 assumenda quo quia.</p>
+
+                 <div id="cta-button">
+                    <a href="#" class="btn-default">
+                        ver cardapio</a>
+                 </div>
+
+                 <a href="tel:+77991332426" id="phone-button">
+                    <button class="btn-default">
+                       <i class="fa-solid fa-phone"></i>
+                 </button>
+                 (77) 991332426</a>
+
+                <div class="social-media-buttons">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                </div>
+
+
+             </div>
+
+             <div id="banner">
+                <img src="src/img/Post_restaurante_com_foto_de_prato_de_comida-removebg-preview.png" alt="">
+             </div>
+
+          </section>
+       </main>
+</body>
+</html>
