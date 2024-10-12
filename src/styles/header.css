@@ -3,7 +3,7 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: var(--color-primary-1);
+    background-color:#fff9ea;
     z-index: 3;
 }
 
@@ -32,8 +32,8 @@ header {
 }
 
 .nav-item.active a {
-    color: var(--color-neutral-1);
-    border-bottom: 3px solid var(--color-primary-4);
+    color:rgb(37, 35, 35);
+    border-bottom: 3px solid rgb(206, 11, 11)
 }
 
 #mobile-btn {
